@@ -1,0 +1,16 @@
+PODS:
+  - SDVersion (4.3.2)
+
+DEPENDENCIES:
+  - SDVersion
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDVersion
+
+SPEC CHECKSUMS:
+  SDVersion: 18f32c835c1543611fcfae3c6accd9a04b90597e
+
+PODFILE CHECKSUM: c3f9f78b09a348f40c2ad415b0721e57b8c5372c
+
+COCOAPODS: 1.6.0.beta.2
