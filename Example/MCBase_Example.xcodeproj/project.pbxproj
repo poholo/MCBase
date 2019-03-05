@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A66602D80AF909959E0CB65 /* MCJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666B23C73575F099C4DD13 /* MCJSONUtils.m */; };
 		1A6660BABC9634212240F405 /* MCBase.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A666F6DB93412A4389E0BE0 /* MCBase.podspec */; };
+		25D0B1F8222E7CA8003C9B2D /* MCDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */; };
 		25D7D89F21E2F0CE004E7BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7D89E21E2F0CE004E7BD9 /* AppDelegate.m */; };
 		25D7D8A221E2F0CE004E7BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7D8A121E2F0CE004E7BD9 /* ViewController.m */; };
 		25D7D8A521E2F0CE004E7BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7D8A321E2F0CE004E7BD9 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		1A666C40E4E45706AC07F5AB /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A666F6DB93412A4389E0BE0 /* MCBase.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBase.podspec; path = ../MCBase.podspec; sourceTree = "<group>"; };
 		1A666F9F83F5ACD203BFDDC2 /* MCJSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONUtils.h; sourceTree = "<group>"; };
+		25D0B1F5222E7CA7003C9B2D /* MCDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDataVM.h; sourceTree = "<group>"; };
+		25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDataVM.m; sourceTree = "<group>"; };
 		25D7D89A21E2F0CE004E7BD9 /* MCBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D7D89D21E2F0CE004E7BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D7D89E21E2F0CE004E7BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25D0B1F2222E77CE003C9B2D /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				25D0B1F5222E7CA7003C9B2D /* MCDataVM.h */,
+				25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		25D7D89121E2F0CE004E7BD9 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +110,7 @@
 		25D7DD4A21E3289A004E7BD9 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				25D0B1F2222E77CE003C9B2D /* VM */,
 				25D7DD4B21E3289A004E7BD9 /* Dto */,
 				25D7DD5421E3289A004E7BD9 /* Utils */,
 				25D7DD5721E3289A004E7BD9 /* Protocol */,
@@ -257,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D0B1F8222E7CA8003C9B2D /* MCDataVM.m in Sources */,
 				25D7D8A221E2F0CE004E7BD9 /* ViewController.m in Sources */,
 				25D7D8AD21E2F0D0004E7BD9 /* main.m in Sources */,
 				25D7DE0C21E3289B004E7BD9 /* MCDto.m in Sources */,
