@@ -67,6 +67,7 @@ iOSInjectionProject/
 
 #AppCode IDE
 .idea
+*/.idea/
 .DS_Store
 IPA/
 upload/
