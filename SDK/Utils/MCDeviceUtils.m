@@ -6,7 +6,7 @@
 
 #import "MCDeviceUtils.h"
 
-#import <SDVersion/SDVersion.h>
+#import <MCVersion/SDVersion.h>
 #import <sys/utsname.h>
 
 @implementation MCDeviceUtils

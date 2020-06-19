@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MCBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "MCBase can provide Dto, log, utils ... capatities"
   s.homepage     = "https://github.com/poholo/MCBase"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/poholo/MCBase.git", :tag => "#{s.version}" }
 
   s.default_subspec = 'All'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.subspec 'Utils' do |utils|
     utils.source_files = 'SDK/Utils/*.{h,m,mm}'
     utils.public_header_files = 'SDK/Utils/*.h'
-    utils.dependency 'SDVersion'
+    utils.dependency 'MCVersion'
   end
 
   s.subspec 'All' do |all|
@@ -35,14 +35,6 @@ Pod::Spec.new do |s|
     all.dependency 'MCBase/Log'
     all.dependency 'MCBase/Utils'
   end
-
-  s.xcconfig = {
-       'VALID_ARCHS' => 'arm64 x86_64',
-       'USER_HEADER_SEARCH_PATHS' => '${PROJECT_DIR}/Pods/**'
-  }
-  s.pod_target_xcconfig = {
-        'VALID_ARCHS' => 'arm64 x86_64'
-  }
 
   s.frameworks = "Foundation"
 end

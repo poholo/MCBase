@@ -7,27 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A66602D80AF909959E0CB65 /* MCJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666B23C73575F099C4DD13 /* MCJSONUtils.m */; };
 		1A6660BABC9634212240F405 /* MCBase.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A666F6DB93412A4389E0BE0 /* MCBase.podspec */; };
-		25D0B1F8222E7CA8003C9B2D /* MCDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */; };
 		25D7D89F21E2F0CE004E7BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7D89E21E2F0CE004E7BD9 /* AppDelegate.m */; };
 		25D7D8A221E2F0CE004E7BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7D8A121E2F0CE004E7BD9 /* ViewController.m */; };
 		25D7D8A521E2F0CE004E7BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7D8A321E2F0CE004E7BD9 /* Main.storyboard */; };
 		25D7D8A721E2F0D0004E7BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D7D8A621E2F0D0004E7BD9 /* Assets.xcassets */; };
 		25D7D8AA21E2F0D0004E7BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7D8A821E2F0D0004E7BD9 /* LaunchScreen.storyboard */; };
 		25D7D8AD21E2F0D0004E7BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7D8AC21E2F0D0004E7BD9 /* main.m */; };
-		25D7DE0C21E3289B004E7BD9 /* MCDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7DD4F21E3289A004E7BD9 /* MCDto.m */; };
-		25D7DE0E21E3289B004E7BD9 /* MCDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7DD5521E3289A004E7BD9 /* MCDeviceUtils.m */; };
 		DBDC1846BFC891EED32973D5 /* libPods-MCBase_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356638C4D3A41FBC5D548A03 /* libPods-MCBase_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A666B23C73575F099C4DD13 /* MCJSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONUtils.m; sourceTree = "<group>"; };
 		1A666C40E4E45706AC07F5AB /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A666F6DB93412A4389E0BE0 /* MCBase.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBase.podspec; path = ../MCBase.podspec; sourceTree = "<group>"; };
-		1A666F9F83F5ACD203BFDDC2 /* MCJSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONUtils.h; sourceTree = "<group>"; };
-		25D0B1F5222E7CA7003C9B2D /* MCDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDataVM.h; sourceTree = "<group>"; };
-		25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDataVM.m; sourceTree = "<group>"; };
 		25D7D89A21E2F0CE004E7BD9 /* MCBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D7D89D21E2F0CE004E7BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D7D89E21E2F0CE004E7BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,12 +30,6 @@
 		25D7D8A921E2F0D0004E7BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D7D8AB21E2F0D0004E7BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D7D8AC21E2F0D0004E7BD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25D7DD4D21E3289A004E7BD9 /* MCDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDto.h; sourceTree = "<group>"; };
-		25D7DD4F21E3289A004E7BD9 /* MCDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDto.m; sourceTree = "<group>"; };
-		25D7DD5521E3289A004E7BD9 /* MCDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDeviceUtils.m; sourceTree = "<group>"; };
-		25D7DD5621E3289A004E7BD9 /* MCDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDeviceUtils.h; sourceTree = "<group>"; };
-		25D7DD5821E3289A004E7BD9 /* MCCallBackInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCallBackInterface.h; sourceTree = "<group>"; };
-		25D7DDB421E3289B004E7BD9 /* MCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLog.h; sourceTree = "<group>"; };
 		356638C4D3A41FBC5D548A03 /* libPods-MCBase_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCBase_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		403E302BA79712329ABA1C9B /* Pods-MCBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBase_Example.release.xcconfig"; path = "Target Support Files/Pods-MCBase_Example/Pods-MCBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9CE977B4C2806BF84D243CD1 /* Pods-MCBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-MCBase_Example/Pods-MCBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,15 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25D0B1F2222E77CE003C9B2D /* VM */ = {
-			isa = PBXGroup;
-			children = (
-				25D0B1F5222E7CA7003C9B2D /* MCDataVM.h */,
-				25D0B1F6222E7CA7003C9B2D /* MCDataVM.m */,
-			);
-			path = VM;
-			sourceTree = "<group>";
-		};
 		25D7D89121E2F0CE004E7BD9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +55,6 @@
 				25D7D89C21E2F0CE004E7BD9 /* MCBase_Example */,
 				A940EF9E50B650FC938DC00D /* Pods */,
 				25D7D89B21E2F0CE004E7BD9 /* Products */,
-				25D7DD4A21E3289A004E7BD9 /* SDK */,
 				1A666F6DB93412A4389E0BE0 /* MCBase.podspec */,
 			);
 			sourceTree = "<group>";
@@ -105,55 +81,6 @@
 				25D7D8AC21E2F0D0004E7BD9 /* main.m */,
 			);
 			path = MCBase_Example;
-			sourceTree = "<group>";
-		};
-		25D7DD4A21E3289A004E7BD9 /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				25D0B1F2222E77CE003C9B2D /* VM */,
-				25D7DD4B21E3289A004E7BD9 /* Dto */,
-				25D7DD5421E3289A004E7BD9 /* Utils */,
-				25D7DD5721E3289A004E7BD9 /* Protocol */,
-				25D7DDB321E3289B004E7BD9 /* Log */,
-			);
-			name = SDK;
-			path = ../SDK;
-			sourceTree = "<group>";
-		};
-		25D7DD4B21E3289A004E7BD9 /* Dto */ = {
-			isa = PBXGroup;
-			children = (
-				25D7DD4D21E3289A004E7BD9 /* MCDto.h */,
-				25D7DD4F21E3289A004E7BD9 /* MCDto.m */,
-			);
-			path = Dto;
-			sourceTree = "<group>";
-		};
-		25D7DD5421E3289A004E7BD9 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				25D7DD5521E3289A004E7BD9 /* MCDeviceUtils.m */,
-				25D7DD5621E3289A004E7BD9 /* MCDeviceUtils.h */,
-				1A666B23C73575F099C4DD13 /* MCJSONUtils.m */,
-				1A666F9F83F5ACD203BFDDC2 /* MCJSONUtils.h */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		25D7DD5721E3289A004E7BD9 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				25D7DD5821E3289A004E7BD9 /* MCCallBackInterface.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		25D7DDB321E3289B004E7BD9 /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				25D7DDB421E3289B004E7BD9 /* MCLog.h */,
-			);
-			path = Log;
 			sourceTree = "<group>";
 		};
 		32BE8B8E6252B04CCB3959F2 /* Frameworks */ = {
@@ -270,13 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D0B1F8222E7CA8003C9B2D /* MCDataVM.m in Sources */,
 				25D7D8A221E2F0CE004E7BD9 /* ViewController.m in Sources */,
 				25D7D8AD21E2F0D0004E7BD9 /* main.m in Sources */,
-				25D7DE0C21E3289B004E7BD9 /* MCDto.m in Sources */,
-				25D7DE0E21E3289B004E7BD9 /* MCDeviceUtils.m in Sources */,
 				25D7D89F21E2F0CE004E7BD9 /* AppDelegate.m in Sources */,
-				1A66602D80AF909959E0CB65 /* MCJSONUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
