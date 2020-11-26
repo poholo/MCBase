@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MCBase"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "MCBase can provide Dto, log, utils ... capatities"
   s.homepage     = "https://github.com/poholo/MCBase"
   s.license          = { :type => "MIT", :file => "LICENSE" }

@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1A666C40E4E45706AC07F5AB /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A666F6DB93412A4389E0BE0 /* MCBase.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBase.podspec; path = ../MCBase.podspec; sourceTree = "<group>"; };
+		1A666F6DB93412A4389E0BE0 /* MCBase.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBase.podspec; path = ../MCBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25D7D89A21E2F0CE004E7BD9 /* MCBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D7D89D21E2F0CE004E7BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D7D89E21E2F0CE004E7BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
