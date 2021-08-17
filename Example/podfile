@@ -5,3 +5,9 @@ platform :ios, "10.0"
 target "MCBase_Example" do
     pod "MCBase", path: '../'
 end
+
+
+use_frameworks!
+target "MCBase_Swift_Example" do
+    pod "MCBase", path: '../'
+end

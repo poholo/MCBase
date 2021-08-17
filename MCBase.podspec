@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MCBase"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "MCBase can provide Dto, log, utils ... capatities"
   s.homepage     = "https://github.com/poholo/MCBase"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -16,17 +16,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'Dto' do |dto|
     dto.source_files = 'SDK/Dto/*.{h,m,mm}'
-    dto.public_header_files = 'SDK/Dto/*.h'
   end
 
   s.subspec 'Log' do |log|
     log.source_files = 'SDK/Log/*.{h,m,mm}'
-    log.public_header_files = 'SDK/Log/*.h'
   end
 
   s.subspec 'Utils' do |utils|
     utils.source_files = 'SDK/Utils/*.{h,m,mm}'
-    utils.public_header_files = 'SDK/Utils/*.h'
     utils.dependency 'MCVersion'
   end
 
