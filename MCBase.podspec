@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Utils' do |utils|
     utils.source_files = 'SDK/Utils/*.{h,m,mm}'
-    utils.dependency 'MCVersion'
+#    utils.dependency 'MCVersion'
   end
 
   s.subspec 'All' do |all|
